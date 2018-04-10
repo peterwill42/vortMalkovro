@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <link rel="stylesheet" type="text/css" href="vidiĝo.css">
+  <title>vortmalkovro</title>
+</head>
+
+<body onload = "novaLudo()">
+
+
+<script src="vortListo.js"></script>
+<script src="novaVorto.js"></script>
+<script src="takso.js"></script>
+<script src="enliteru.js"></script>
+<script src="malkaŝu.js"></script>
+
+<table align=center>
+    <tr>
+        <td id="mk1" align="center" height=60px><img src="vortmalkovro.png"></td>
+    </tr>
+
+    <tr>
+      <td id="mk1" height=60px align=center><p3 id ="provado"></p3></td>
+    </tr>
+
+    <tr>
+        <td id="vortMalantaŭKoloro"><p id ="respondo"></p></td>
+    </tr>
+
+    <tr>
+        <td id="mk1" height=50px align=center><p4 id="malkaŝu"></p4></td>
+    </tr>
+
+    <tr>
+        <td id="mk1" height=50px align=center><p2 id="venkas"></p2></td>
+    </tr>
+
+    <tr>
+        <td><table id="mk1" align=center>
+            <tr align=center>
+              <td><button onclick="litero('ŝ')" id="ŝbut">ŝ</button></td>
+              <td><button onclick="litero('ŭ')" id="ŭbut">ŭ</button></td>
+              <td><button onclick="litero('e')" id="ebut">e</button></td>
+              <td><button onclick="litero('r')" id="rbut">r</button></td>
+              <td><button onclick="litero('t')" id="tbut">t</button></td>
+              <td><button onclick="litero('ĝ')" id="ĝbut">ĝ</button></td>
+              <td><button onclick="litero('u')" id="ubut">u</button></td>
+              <td><button onclick="litero('i')" id="ibut">i</button></td>
+              <td><button onclick="litero('o')" id="obut">o</button></td>
+              <td><button onclick="litero('p')" id="pbut">p</button></td>
+            </tr>
+            <tr align=center>
+              <td><button onclick="litero('a')" id="abut">a</button></td>
+              <td><button onclick="litero('s')" id="sbut">s</button></td>
+              <td><button onclick="litero('d')" id="dbut">d</button></td>
+              <td><button onclick="litero('f')" id="fbut">f</button></td>
+              <td><button onclick="litero('g')" id="gbut">g</button></td>
+              <td><button onclick="litero('h')" id="hbut">h</button></td>
+              <td><button onclick="litero('j')" id="jbut">j</button></td>
+              <td><button onclick="litero('k')" id="kbut">k</button></td>
+              <td><button onclick="litero('l')" id="lbut">l</button></td>
+              <td><button onclick="litero('ĵ')" id="ĵbut">ĵ</button></td>
+            </tr>
+            <tr align=center>
+              <td></td>
+              <td><button onclick="litero('z')" id="zbut">z</button></td>
+              <td><button onclick="litero('ĉ')" id="ĉbut">ĉ</button></td>
+              <td><button onclick="litero('c')" id="cbut">c</button></td>
+              <td><button onclick="litero('v')" id="vbut">v</button></td>
+              <td><button onclick="litero('b')" id="bbut">b</button></td>
+              <td><button onclick="litero('n')" id="nbut">n</button></td>
+              <td><button onclick="litero('m')" id="mbut">m</button></td>
+              <td><button onclick="litero('ĥ')" id="ĥbut">ĥ</button></td>
+              <td></td>
+            </tr>
+
+          </table></td>
+            <tr height=70px>
+              <td id="mk1"></td>
+            </tr>
+          <tr>
+              <td><table width=100%>
+                <tr>
+                  <!-- butono por malkaŝi la aktivan vorton-->
+                  <td id="mk1" align=left width=130px><input type="button" value="malkaŝigu"
+                    onClick="malkaŝu()"></td>
+                  <td id="mk1" align=center><p1 id= "enhavo"></p1></td>
+                  <!-- butono por aktualigi la paĝon por eligi novan vorton-->
+                  <td id="mk1" align=right width=130px><input type="button" value="nova vorto"
+                    onClick="window.location.reload()"></td>
+                </tr>
+              </table> </td>
+          </tr>
+    
+</table>
+
+</body>
+
+</html>

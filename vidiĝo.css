@@ -1,0 +1,107 @@
+body {
+    background-color: lemonchiffon;
+}
+
+table1 {
+    height: 100%;
+}
+
+button {
+   background-color: #003300;
+   color: #FFFFFF;
+   font-size: 22px;
+   width: 37px;
+   height: 37px;
+   border-radius: 10px;
+   margin:6px;
+ }
+
+ input {
+   background-color: #003300;
+   color: #FFFFFF;
+   font-size: 22px;
+   height: 37px;
+   border-radius: 10px;
+   margin:5px;
+ }
+
+#vortMalantaŭKoloro
+{
+border-radius: 7px 7px 7px 7px;
+background-color: LightSeaGreen;
+padding: 5px
+}
+
+#mk1
+{
+border-radius: 7px 7px 7px 7px;
+background-color: SeaGreen;
+color: white;
+padding: 5px
+}
+
+#mk2
+{
+border-radius: 7px 7px 7px 7px;
+background-color: SeaGreen;
+color: SeaGreen;
+padding: 5px
+}
+
+
+#space {
+    width:184px;
+    /* this bit to widen the bottom buttons */
+ }
+
+p
+{
+  font-family: verdana;
+  font-size: 42px;
+  text-align: center;
+  color: #000000
+}
+
+p1
+{
+  font-family: verdana;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+p2
+{
+  font-family: verdana;
+  font-size: 24px;
+  text-align: center;
+  color: lemonchiffon;
+}
+
+p3
+{
+  font-family: verdana;
+  font-size: 42px;
+  text-align: center;
+  color: white;
+}
+
+p4
+{
+  font-family: verdana;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+p5
+{
+  font-family: verdana;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (orientation: active){
+    height: 95%;
+}
